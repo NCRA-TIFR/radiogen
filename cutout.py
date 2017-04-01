@@ -38,4 +38,4 @@ for i in range(len(catalog)):
     else:
         Y_MAX_RANGE = Y_POS + CUTOUT_SIZE 
 
-    plt.imsave('CUTOUTS/'+str(RA)+','+str(DEC)+'.jpg', data[Y_MIN_RANGE:Y_MAX_RANGE,X_MIN_RANGE:X_MAX_RANGE])
+    plt.imsave('CUTOUTS/'+str(RA)+','+str(DEC)+'.jpg', data[Y_MIN_RANGE:Y_MAX_RANGE,X_MIN_RANGE:X_MAX_RANGE], cmap='gist_heat')
