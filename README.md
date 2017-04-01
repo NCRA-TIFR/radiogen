@@ -1,9 +1,9 @@
 Input Image
 
 ![Image of source]
-(https://github.com/NCRA-TIFR/radiogen/gaus_model.jpg)
+(https://github.com/NCRA-TIFR/radiogen/gaus_model.jpeg)
 
 Output Image
 ![Image of cutout]
-(https://github.com/NCRA-TIFR/radiogen/CUTOUTS/18.6421620789,17.0838410005.jpg)
+(https://github.com/NCRA-TIFR/radiogen/CUTOUTS/sample_cutout.jpg)
 
