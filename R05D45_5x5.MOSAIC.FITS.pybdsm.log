@@ -1,0 +1,68 @@
+
+========================================================================
+Sat 01-04-2017 11:39:49:: INFO    : Processing R05D45_5x5.MOSAIC.FITS
+Sat 01-04-2017 11:39:49:: INFO    : PyBDSM version 1.8.7 (LUS revision 34639)
+Sat 01-04-2017 11:39:49:: INFO    : Non-default input parameters:
+                                        filename             = 'R05D45_5x5.MOSAIC.FITS'
+Sat 01-04-2017 11:39:49:: USERINFO: --> Opened 'R05D45_5x5.MOSAIC.FITS'
+Sat 01-04-2017 11:39:49:: INFO    : Original data shape of R05D45_5x5.MOSAIC.FITS: (1, 1, 2903, 2903)
+Sat 01-04-2017 11:39:49:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 2903, 2903)
+Sat 01-04-2017 11:39:49:: USERINFO: Image size .............................. : (2903, 2903) pixels
+Sat 01-04-2017 11:39:49:: USERINFO: Number of channels ...................... : 1
+Sat 01-04-2017 11:39:49:: USERINFO: Number of Stokes parameters ............. : 1
+Sat 01-04-2017 11:39:49:: USERINFO: Beam shape (major, minor, pos angle) .... : (6.94720e-03, 6.94440e-03, 0.0) degrees
+Sat 01-04-2017 11:39:49:: INFO    : Equinox of image is 2000.000000.
+Sat 01-04-2017 11:39:49:: USERINFO: Frequency of image ...................... : 147.500 MHz
+Sat 01-04-2017 11:39:49:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Sat 01-04-2017 11:39:50:: INFO    : Raw mean (Stokes I) =  0.1992 mJy and raw rms =  10.1197 mJy 
+Sat 01-04-2017 11:39:50:: INFO    : sigma clipped mean (Stokes I) =  -0.0507 mJy and  sigma clipped rms =  4.0430 mJy 
+Sat 01-04-2017 11:39:50:: USERINFO: Flux from sum of (non-blank) pixels ..... : 91.067 Jy
+Sat 01-04-2017 11:39:50:: INFO    : Estimated bmpersrc_th =  331.27
+Sat 01-04-2017 11:39:50:: INFO    : Parameter confused is True
+Sat 01-04-2017 11:39:50:: USERINFO: --> Calculating background rms and mean images
+Sat 01-04-2017 11:39:50:: INFO    : Estimated size of brightest source (pixels) = 3
+Sat 01-04-2017 11:39:50:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 38
+Sat 01-04-2017 11:39:53:: USERINFO: Derived rms_box (box size, step size) ... : (291, 97) pixels
+Sat 01-04-2017 11:39:53:: INFO    : Background rms and mean images computed
+Sat 01-04-2017 11:39:53:: USERINFO: --> Variation in rms image significant
+Sat 01-04-2017 11:39:53:: USERINFO: --> Using 2D map for background rms
+Sat 01-04-2017 11:39:53:: USERINFO: --> Variation in mean image significant
+Sat 01-04-2017 11:39:53:: USERINFO: --> Using 2D map for background mean
+Sat 01-04-2017 11:39:53:: USERINFO: Min/max values of background rms map .... : (0.00272, 0.00527) Jy/beam
+Sat 01-04-2017 11:39:53:: USERINFO: Min/max values of background mean map ... : (-0.00049, 0.00034) Jy/beam
+Sat 01-04-2017 11:39:53:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Sat 01-04-2017 11:39:53:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Sat 01-04-2017 11:39:53:: USERINFO: Minimum number of pixels per island ..... : 6
+Sat 01-04-2017 11:39:53:: USERINFO: Number of islands found ................. : 447
+Sat 01-04-2017 11:39:55:: USERINFO: Total number of Gaussians fit to image .. : 540
+Sat 01-04-2017 11:39:55:: USERINFO: Total flux density in model ............. : 103.348 Jy
+Sat 01-04-2017 11:39:55:: USERINFO: --> Grouping Gaussians into sources
+Sat 01-04-2017 11:39:55:: USERINFO: Number of sources formed from Gaussians   : 475
+Sat 01-04-2017 11:39:55:: WARNING : All Gaussians were flagged for the following islands:
+                                        Island #1 (x=0, y=2707)
+                                        Island #4 (x=17, y=1505)
+                                        Island #21 (x=100, y=724)
+                                        Island #227 (x=1436, y=2902)
+                                        Island #269 (x=1735, y=1227)
+                                    Please check these islands. If they are valid islands and
+                                    should be fit, try adjusting the flagging options (use
+                                    show_fit with "ch0_flagged=True" to see the flagged Gaussians)
+                                    or enabling the wavelet module (with "atrous_do=True").
+                                    To include empty islands in output source catalogs, set
+                                    incl_empty=True in the write_catalog task.
+Sat 01-04-2017 11:39:55:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Sat 01-04-2017 11:39:56:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: -2.676e-05 (Jy/beam)
+                                        std. dev: 4.011e-03 (Jy/beam)
+                                            skew: 0.041
+                                        kurtosis: 0.442
+Sat 01-04-2017 11:39:56:: INFO    : Internally derived parameters:
+                                        beam                 : (0.0069472, 0.0069444, 0.0)
+                                        bmpersrc_th          : 331.26607704402517
+                                        frequency            : 147500000.0
+                                        indir                : './'
+                                        minpix_isl           : 6
+                                        rms_box              : (291, 97)
+                                        rms_box_bright       : (76, 25)
+                                        thresh               : 'hard'
+Sat 01-04-2017 11:40:18:: INFO    : Writing R05D45_5x5.MOSAIC.pybdsm.srl
